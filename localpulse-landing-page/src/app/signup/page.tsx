@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowLeft, Sparkles, Mail, User, Building, ArrowRight } from "lucide-react";
 
