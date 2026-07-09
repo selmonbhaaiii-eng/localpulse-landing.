@@ -71,7 +71,7 @@ export default function TermsOfService() {
               <h2 className="text-2xl font-bold text-white mb-4">6. Contact Information</h2>
               <p>
                 Questions about the Terms of Service should be sent to us at: <br />
-                <a href="mailto:support@localpulse.com" className="text-primary hover:underline mt-2 inline-block">support@localpulse.com</a>
+                <a href="mailto:localpulse.support@gmail.com" className="text-primary hover:underline mt-2 inline-block">localpulse.support@gmail.com</a>
               </p>
             </section>
           </div>

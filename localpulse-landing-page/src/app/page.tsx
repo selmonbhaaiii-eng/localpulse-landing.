@@ -187,7 +187,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center gap-8 text-sm text-white/60">
             <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-primary transition-colors">Terms of Service</Link>
-            <a href="mailto:support@localpulse.com" className="hover:text-primary transition-colors">Contact Support</a>
+            <a href="mailto:localpulse.support@gmail.com" className="hover:text-primary transition-colors">Contact Support</a>
           </div>
           
           <div className="text-sm text-white/40">

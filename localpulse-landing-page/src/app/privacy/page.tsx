@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-bold text-white mb-4">6. Contact Us</h2>
               <p>
                 If you have any questions about this privacy policy or our privacy practices, please contact us at: <br />
-                <a href="mailto:support@localpulse.com" className="text-primary hover:underline mt-2 inline-block">support@localpulse.com</a>
+                <a href="mailto:localpulse.support@gmail.com" className="text-primary hover:underline mt-2 inline-block">localpulse.support@gmail.com</a>
               </p>
             </section>
           </div>
