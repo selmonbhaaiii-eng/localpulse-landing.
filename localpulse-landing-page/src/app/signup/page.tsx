@@ -32,13 +32,20 @@ export default function SignupPage() {
           </div>
 
           <div className="glass-panel p-8 rounded-3xl border-white/10 shadow-2xl">
-            <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
+            <form action="https://formsubmit.co/localpulse.support@gmail.com" method="POST" className="space-y-5">
+              {/* Optional: Redirect back to home after submission instead of FormSubmit's default thank you page */}
+              <input type="hidden" name="_next" value="https://localpulse-landing-rukq.vercel.app/" />
+              {/* Optional: Disable captcha for better UX (can be enabled later if spam is an issue) */}
+              <input type="hidden" name="_captcha" value="false" />
+              
               <div>
                 <label className="block text-sm font-medium text-white/70 mb-2">Full Name</label>
                 <div className="relative">
                   <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/40" />
                   <input 
                     type="text" 
+                    name="name"
+                    required
                     placeholder="John Doe"
                     className="w-full bg-surface border border-white/10 rounded-xl py-3 pl-12 pr-4 text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                   />
@@ -51,6 +58,8 @@ export default function SignupPage() {
                   <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/40" />
                   <input 
                     type="email" 
+                    name="email"
+                    required
                     placeholder="john@company.com"
                     className="w-full bg-surface border border-white/10 rounded-xl py-3 pl-12 pr-4 text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                   />
@@ -63,6 +72,8 @@ export default function SignupPage() {
                   <Building className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/40" />
                   <input 
                     type="text" 
+                    name="company"
+                    required
                     placeholder="Acme Local"
                     className="w-full bg-surface border border-white/10 rounded-xl py-3 pl-12 pr-4 text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                   />
