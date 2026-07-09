@@ -32,12 +32,10 @@ export default function SignupPage() {
           </div>
 
           <div className="glass-panel p-8 rounded-3xl border-white/10 shadow-2xl">
-            <form action="https://formsubmit.co/localpulse.support@gmail.com" method="POST" className="space-y-5">
-              {/* Optional: Redirect back to home after submission instead of FormSubmit's default thank you page */}
-              <input type="hidden" name="_next" value="https://localpulse-landing-rukq.vercel.app/" />
-              {/* Optional: Disable captcha for better UX (can be enabled later if spam is an issue) */}
-              <input type="hidden" name="_captcha" value="false" />
-              
+            <form action="https://api.web3forms.com/submit" method="POST" className="space-y-5">
+              <input type="hidden" name="access_key" value="a2e84849-b586-41a7-86f0-2fe439067e11" />
+              {/* Optional: Redirect back to home after submission */}
+              <input type="hidden" name="redirect" value="https://localpulse-landing-rukq.vercel.app/" />
               <div>
                 <label className="block text-sm font-medium text-white/70 mb-2">Full Name</label>
                 <div className="relative">
