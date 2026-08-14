@@ -13,8 +13,8 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "LocalPulse - Automate your Google Business Profile",
-  description: "Connect your GBP in seconds. Automatically sync reviews, extract AI insights, and turn 5-star reviews into engaging Google Posts on autopilot.",
+  title: "LocalPulse - Get more customers from Google. Without lifting a finger.",
+  description: "LocalPulse reads your Google reviews, writes posts in your voice, and keeps your profile active — so you can focus on running your business. AI creates. You approve.",
 };
 
 export default function RootLayout({

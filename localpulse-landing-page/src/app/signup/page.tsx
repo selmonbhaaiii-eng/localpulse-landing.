@@ -28,7 +28,7 @@ export default function SignupPage() {
               <Sparkles className="w-6 h-6 text-surface" />
             </div>
             <h1 className="font-heading text-3xl font-bold mb-2">Get Early Access</h1>
-            <p className="text-white/60">Join the waitlist to automate your Google Business Profile when we launch.</p>
+            <p className="text-white/60">Join the waitlist to get more customers from Google without lifting a finger.</p>
           </div>
 
           <div className="glass-panel p-8 rounded-3xl border-white/10 shadow-2xl">
