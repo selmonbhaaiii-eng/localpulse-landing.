@@ -35,7 +35,7 @@ export default function SignupPage() {
             <form action="https://api.web3forms.com/submit" method="POST" className="space-y-5">
               <input type="hidden" name="access_key" value="a2e84849-b586-41a7-86f0-2fe439067e11" />
               {/* Optional: Redirect back to home after submission */}
-              <input type="hidden" name="redirect" value="https://localpulse-landing-rukq.vercel.app/" />
+              <input type="hidden" name="redirect" value="https://echra-landing-rukq.vercel.app/" />
               <div>
                 <label className="block text-sm font-medium text-white/70 mb-2">Full Name</label>
                 <div className="relative">

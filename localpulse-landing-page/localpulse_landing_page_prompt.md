@@ -1,11 +1,11 @@
-# LocalPulse: Landing Page Generator Prompt
+# Echra: Landing Page Generator Prompt
 
 *Copy and paste the text below into your other AI tool/folder to perfectly generate your marketing landing page!*
 
 ***
 
 **System Instructions for AI:**
-Act as an expert frontend developer and web designer. Build a stunning, premium marketing landing page for a B2B SaaS product called "LocalPulse".
+Act as an expert frontend developer and web designer. Build a stunning, premium marketing landing page for a B2B SaaS product called "Echra".
 
 ### 1. Design & Aesthetics
 - **Theme:** Dark Mode (Background: `#0C0E0F`, Surface: `#141618`).

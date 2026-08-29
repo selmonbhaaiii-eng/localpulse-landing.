@@ -17,7 +17,7 @@ export default function Home() {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
               <Sparkles className="w-5 h-5 text-surface" />
             </div>
-            <span className="font-heading font-bold text-2xl tracking-tight">LocalPulse</span>
+            <span className="font-heading font-bold text-2xl tracking-tight">Echra</span>
           </div>
           <div className="flex items-center gap-6">
             <Link href="/login" className="text-sm font-medium text-white/80 hover:text-white transition-colors">
@@ -51,7 +51,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-12 leading-relaxed">
-              LocalPulse reads your Google reviews, writes posts in your voice, and keeps your profile active — so you can focus on running your business. <strong className="text-white font-semibold block mt-2">AI creates. You approve.</strong>
+              Echra reads your Google reviews, writes posts in your voice, and keeps your profile active — so you can focus on running your business. <strong className="text-white font-semibold block mt-2">AI creates. You approve.</strong>
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
               <Link 
@@ -143,7 +143,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-heading text-2xl font-bold mb-4">Reviews Synced Every 2 Hours</h3>
                 <p className="text-white/70 leading-relaxed flex-grow">
-                  Never miss a new review. LocalPulse automatically pulls your latest Google reviews and classifies them — positive, complaint, or reputation risk.
+                  Never miss a new review. Echra automatically pulls your latest Google reviews and classifies them — positive, complaint, or reputation risk.
                 </p>
               </div>
 
@@ -187,7 +187,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-heading text-2xl font-bold mb-4">Reputation Risk Alerts</h3>
                 <p className="text-white/70 leading-relaxed flex-grow">
-                  When a review contains a billing dispute, legal threat, or serious complaint, LocalPulse flags it immediately and recommends a careful manual response — never a blind auto-reply.
+                  When a review contains a billing dispute, legal threat, or serious complaint, Echra flags it immediately and recommends a careful manual response — never a blind auto-reply.
                 </p>
               </div>
 
@@ -198,7 +198,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-heading text-2xl font-bold mb-4">Festival Posts Auto-Drafted</h3>
                 <p className="text-white/70 leading-relaxed flex-grow">
-                  Diwali, Eid, Christmas, Independence Day — LocalPulse auto-generates festive posts 5 days before every major Indian occasion. Tailored to your business category and brand voice.
+                  Diwali, Eid, Christmas, Independence Day — Echra auto-generates festive posts 5 days before every major Indian occasion. Tailored to your business category and brand voice.
                 </p>
               </div>
 
@@ -209,7 +209,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-heading text-2xl font-bold mb-4">Daily AI Recommendations</h3>
                 <p className="text-white/70 leading-relaxed flex-grow">
-                  Every time you open your dashboard, LocalPulse tells you exactly what to do next — which reviews need replies, when to post, and what your customers are saying about your business this week.
+                  Every time you open your dashboard, Echra tells you exactly what to do next — which reviews need replies, when to post, and what your customers are saying about your business this week.
                 </p>
               </div>
             </div>
@@ -384,7 +384,7 @@ export default function Home() {
                   <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" /><span className="text-white/70">SLA support</span></li>
                 </ul>
                 <div>
-                  <a href="mailto:localpulse.support@gmail.com" className="block w-full py-3.5 rounded-xl border border-white/20 text-center font-semibold hover:bg-white/5 transition-colors">
+                  <a href="mailto:echra.support@gmail.com" className="block w-full py-3.5 rounded-xl border border-white/20 text-center font-semibold hover:bg-white/5 transition-colors">
                     Contact Us
                   </a>
                 </div>
@@ -403,17 +403,17 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-primary" />
-            <span className="font-heading font-bold text-xl">LocalPulse</span>
+            <span className="font-heading font-bold text-xl">Echra</span>
           </div>
           
           <div className="flex flex-wrap justify-center gap-8 text-sm text-white/60">
             <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-primary transition-colors">Terms of Service</Link>
-            <a href="mailto:localpulse.support@gmail.com" className="hover:text-primary transition-colors">Contact Support</a>
+            <a href="mailto:echra.support@gmail.com" className="hover:text-primary transition-colors">Contact Support</a>
           </div>
           
           <div className="text-sm text-white/40">
-            &copy; {new Date().getFullYear()} LocalPulse. All rights reserved.
+            &copy; {new Date().getFullYear()} Echra. All rights reserved.
           </div>
         </div>
       </footer>

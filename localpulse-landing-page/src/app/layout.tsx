@@ -13,8 +13,8 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "LocalPulse - Get more customers from Google. Without lifting a finger.",
-  description: "LocalPulse reads your Google reviews, writes posts in your voice, and keeps your profile active — so you can focus on running your business. AI creates. You approve.",
+  title: "Echra - Get more customers from Google. Without lifting a finger.",
+  description: "Echra reads your Google reviews, writes posts in your voice, and keeps your profile active — so you can focus on running your business. AI creates. You approve.",
 };
 
 export default function RootLayout({

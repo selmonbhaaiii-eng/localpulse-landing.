@@ -13,7 +13,7 @@ export default function TermsOfService() {
           </Link>
           <div className="flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-primary" />
-            <span className="font-heading font-bold text-xl">LocalPulse</span>
+            <span className="font-heading font-bold text-xl">Echra</span>
           </div>
         </div>
       </header>
@@ -28,7 +28,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
               <p>
-                By accessing and using LocalPulse, you accept and agree to be bound by the terms and provision of this agreement. 
+                By accessing and using Echra, you accept and agree to be bound by the terms and provision of this agreement. 
                 If you do not agree to abide by these terms, please do not use this service.
               </p>
             </section>
@@ -36,7 +36,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">2. Description of Service</h2>
               <p>
-                LocalPulse is a software-as-a-service (SaaS) application that integrates with the Google Business Profile API. 
+                Echra is a software-as-a-service (SaaS) application that integrates with the Google Business Profile API. 
                 Our service allows users to automatically sync Google Reviews, extract insights using AI, and generate Google Posts.
               </p>
             </section>
@@ -45,7 +45,7 @@ export default function TermsOfService() {
               <h2 className="text-2xl font-bold text-white mb-4">3. Google API Integration</h2>
               <p className="mb-2">By using our service, you acknowledge and agree that:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>You are authorizing LocalPulse to access your Google Business Profile data on your behalf.</li>
+                <li>You are authorizing Echra to access your Google Business Profile data on your behalf.</li>
                 <li>Your use of the Google Business Profile integration is also subject to Google's Terms of Service.</li>
                 <li>You have the legal right and authority to manage the Google Business Profile locations you connect to our service.</li>
               </ul>
@@ -62,7 +62,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">5. Modifications to Service</h2>
               <p>
-                LocalPulse reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, 
+                Echra reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, 
                 the Service (or any part thereof) with or without notice.
               </p>
             </section>
@@ -71,7 +71,7 @@ export default function TermsOfService() {
               <h2 className="text-2xl font-bold text-white mb-4">6. Contact Information</h2>
               <p>
                 Questions about the Terms of Service should be sent to us at: <br />
-                <a href="mailto:localpulse.support@gmail.com" className="text-primary hover:underline mt-2 inline-block">localpulse.support@gmail.com</a>
+                <a href="mailto:echra.support@gmail.com" className="text-primary hover:underline mt-2 inline-block">echra.support@gmail.com</a>
               </p>
             </section>
           </div>
@@ -80,7 +80,7 @@ export default function TermsOfService() {
 
       {/* Footer */}
       <footer className="border-t border-white/5 py-8 text-center text-white/40 text-sm">
-        &copy; {new Date().getFullYear()} LocalPulse. All rights reserved.
+        &copy; {new Date().getFullYear()} Echra. All rights reserved.
       </footer>
     </div>
   );
